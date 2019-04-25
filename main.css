@@ -23,7 +23,7 @@ html {
 #importcentral { 
     text-decoration: none;
     border: solid 2px #CCCC99;
-    border-radius: 15px;
+    border-radius: 30px;
     background-color: #CCCC99;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -37,20 +37,25 @@ html {
 }
 
 .jumbotron {
-    background-color: #CCCCCC!important;
+    /* background-color: #CCCCCC!important; */
     height: 30%;
     width: 100%;
     text-align: center;
      padding-left: 20%;
     padding-right: 20%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 20%;
+    padding-bottom: 15%;
     font-family: 'Merriweather Sans';
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.wallpaperscraft.com/image/mountains_moon_forest_139359_1920x1080.jpg) !important;
+    color: white;
 }
 
 .border1 {
     border: solid 2px #003366;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 40px;
     padding: 10px 10px;
     background-color: #003366;
     width: 30%;
@@ -60,6 +65,7 @@ html {
     margin-right: 35%;
     margin-bottom: 15px;
     color: #CCCC99;
+    
 }
 
 ul#menu li {
