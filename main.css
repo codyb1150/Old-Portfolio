@@ -1,6 +1,7 @@
 body {
     margin: 0px;
-    background-color:#CCCC99;
+    background-color:#424361;
+    
 }
 html {
     scroll-behavior: smooth;
@@ -11,7 +12,7 @@ html {
     top: 0px;
     width: 100%;
     border: solid 2px #003366; 
-    border-radius: 0px 0px 20px 20px; 
+    border-radius: 0px 0px 30px 30px; 
     background-color: #003366;
     font-family: 'Cabin';
     z-index: 1 !important;
@@ -34,12 +35,14 @@ html {
     margin-right: 260px; 
     text-align: center !important;
     color: #003366;
+   
 }
 
 .jumbotron {
     /* background-color: #CCCCCC!important; */
     height: 30%;
     width: 100%;
+    border-radius: 0;
     text-align: center;
      padding-left: 20%;
     padding-right: 20%;
@@ -49,22 +52,38 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(https://images.wallpaperscraft.com/image/mountains_moon_forest_139359_1920x1080.jpg) !important;
-    color: black;
+    background-image: url(https://data.whicdn.com/images/299428786/original.gif) !important;
+    color: #fbb040;
+    /* https://images.wallpaperscraft.com/image/mountains_moon_forest_139359_1920x1080.jpg     */
+}
+
+#resume {
+    text-decoration: none;
+    border: solid 2px #CCCC99;
+    border-radius: 30px;
+    background-color: #CCCC99;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Merriweather Sans';;
+    margin: 0 auto;
+    text-align: center !important;
+    color: #003366;
 }
 
 .border1 {
-    border: solid 2px #003366;
+    border: solid 2px #CCCC99;
     border-radius: 40px;
     padding: 10px 10px;
-    background-color: #003366;
+    background-color: #CCCC99;
     width: 30%;
     text-align: center;
-    font-family: 'Merriweather Sans';
+    font-family: 'Cabin';
     margin: 0 auto;
     margin-right: 35%;
     margin-bottom: 15px;
-    color: #CCCC99;
+    color: #003366;
     
 }
 
@@ -200,8 +219,13 @@ ul#menu li {
     width: 100%;
 }
 
+#submitThis {
+    background-color: #003366;
+}
+
 .footer1 {
     text-align: center;
+    color: white;
 }
 
 
