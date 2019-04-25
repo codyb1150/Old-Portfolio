@@ -89,7 +89,8 @@ html {
 
 ul#menu li {
    display:inline; 
-   margin: 20px 20px 20px 0px;
+   margin: 35px 35px 35px 0px;
+   
 }
 
 #gtr {
@@ -206,6 +207,20 @@ ul#menu li {
     text-align: center;
     font-family: 'Merriweather Sans';
     color: #CCCC99;
+}
+
+#border2 {
+    border: solid 2px #CCCC99;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: #CCCC99;
+    width: 30%;
+    text-align: center;
+    font-family: 'Cabin';
+    margin: 0 auto;
+    margin-right: 35%;
+    
+    color: #003366;
 }
 
 
